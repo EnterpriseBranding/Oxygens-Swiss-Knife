@@ -1,5 +1,5 @@
 # Oxygens Swiss Knife
-WordPress plugin for Oxygen builder that will help you optimize WordPress and speed up your workflow.
+**WordPress plugin for Oxygen builder that will help you optimize WordPress and speed up your workflow.**
 
 I firstly created this plugin based on my personal needs. 
 
