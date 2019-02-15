@@ -1,0 +1,18 @@
+{
+  "name": "jquery-smoothwheel",
+  "homepage": "https://github.com/htmldiz/smoothwheel",
+  "authors": [
+    "htmldiz <mark.tanasevich@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

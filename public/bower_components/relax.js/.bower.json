@@ -1,0 +1,37 @@
+{
+  "name": "relax.js",
+  "version": "0.2.2",
+  "homepage": "https://github.com/gyzerok/relax.js",
+  "authors": [
+    "Fedor Nezhivoy <gyzerok@gmail.com>"
+  ],
+  "main": "dist/Relax.js",
+  "keywords": [
+    "flux",
+    "framework"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "examples",
+    "docs",
+    "lib",
+    "tasks",
+    "Gruntfile.js",
+    "index.js",
+    "package.json",
+    ".idea"
+  ],
+  "_release": "0.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.2",
+    "commit": "e79f64e41673919c6ae26fd46f1712fda8d2a6ad"
+  },
+  "_source": "https://github.com/gyzerok/relax.js.git",
+  "_target": "^0.2.2",
+  "_originalSource": "relax.js"
+}

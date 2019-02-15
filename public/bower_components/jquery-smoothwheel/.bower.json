@@ -1,0 +1,27 @@
+{
+  "name": "jquery-smoothwheel",
+  "homepage": "https://github.com/htmldiz/smoothwheel",
+  "authors": [
+    "htmldiz <mark.tanasevich@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "_release": "61663a06c7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "61663a06c7c505e1e925e5f901681cf3628ef7aa"
+  },
+  "_source": "https://github.com/htmldiz/smoothwheel.git",
+  "_target": "*",
+  "_originalSource": "jquery-smoothwheel"
+}
