@@ -15,8 +15,19 @@ Plugin to 2 things for now:
 
 Scripts are downloaded true Bower and included in plugin folder or you can replace them with CDN.	
 
-##Settings location
+## Settings location
 After you install plugin you can find plugin setting under Settings > Swiss Knife
+
+## Roadmap
+
+- Enable SVG Upload
+- Enable TTF Upload
+- Include Anime.js
+
+**Would like help with and to put them under same roof:**
+- Edit with elementor under page or post list
+- Back to Oxygen Templates - https://wpdevdesign.com/back-to-oxygen-templates-plugin/
+- Oxygen Tree Opener - https://wpdevdesign.com/oxygen-tree-opener-plugin/
 
 ## Project Screenshoots
 ![alt text](https://github.com/krstivoja/Oxygens-Swiss-Knife/blob/master/preview.png "Plugin Preview")
