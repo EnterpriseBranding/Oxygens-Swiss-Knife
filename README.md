@@ -19,4 +19,4 @@ Scripts are downloaded true Bower and included in plugin folder or you can repla
 After you install plugin you can find plugin setting under Settings > Swiss Knife
 
 ## Project Screenshoots
-![alt text](https://github.com/krstivoja/Oxygens-Swiss-Knife/blob/master/Assets/preview.png "Plugin Preview")
+![alt text](https://github.com/krstivoja/Oxygens-Swiss-Knife/blob/master/preview.png "Plugin Preview")
