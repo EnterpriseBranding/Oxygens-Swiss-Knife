@@ -5,7 +5,7 @@ I firstly created this plugin based on my personal needs.
 
 Plugin to 2 things for now:
 1. Clean up WordPress header
-2. Enquiry most common scripts that I use
+2. Enquiry most common scripts that I use:
 	- jQuery instead of WP core
 	- Green Sock
 	- Scroll Magic
