@@ -23,6 +23,7 @@ After you install plugin you can find plugin setting under Settings > Swiss Knif
 - Enable SVG Upload
 - Enable TTF Upload
 - Include Anime.js
+- Split Sections into Tabs
 
 **Would like help with and to put them under same roof:**
 - Edit with elementor under page or post list
