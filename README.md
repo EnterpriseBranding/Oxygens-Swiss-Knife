@@ -28,7 +28,7 @@ After you install plugin you can find plugin setting under Settings > Swiss Knif
 - Split Sections into Tabs
 
 **Would like help with and to put them under same roof:**
-- Edit with elementor under page or post list
+- Edit with Oxygen builder under page or post list
 - Back to Oxygen Templates - https://wpdevdesign.com/back-to-oxygen-templates-plugin/
 - Oxygen Tree Opener - https://wpdevdesign.com/oxygen-tree-opener-plugin/
 
