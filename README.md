@@ -15,6 +15,8 @@ Plugin to 2 things for now:
 
 Scripts are downloaded true Bower and included in plugin folder or you can replace them with CDN.	
 
+### Note: Scripts are enqueued only if you activate checkbox
+
 ## Settings location
 After you install plugin you can find plugin setting under Settings > Swiss Knife
 
