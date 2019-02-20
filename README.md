@@ -3,9 +3,16 @@
 
 I firstly created this plugin based on my personal needs. 
 
-Plugin to 2 things for now:
-1. Clean up WordPress header
-2. Enqueue most common scripts that I use:
+##What Plugin can do for now
+1. Clean up WordPress header from
+	- WP Emoji
+	- Feed Links
+	- WP Generator
+	- Rest API
+	- oEmbed Discovery Links
+	- DNS Prefetch
+
+2. Enqueue most common scripts that I use
 	- jQuery instead of WP core
 	- Green Sock
 	- Scroll Magic
@@ -13,6 +20,15 @@ Plugin to 2 things for now:
 	- Smooth Scrolling
 	- TreeJS
 
+3. Enable upload file support for	
+	- SVG 
+	- TTF
+
+## Roadmap
+- Enable SVG Upload
+- Enable TTF Upload
+- Include Anime.js
+- Split Sections into Tabs
 Scripts are downloaded true Bower and included in plugin folder or you can replace them with CDN.	
 
 ### Note: Scripts are enqueued only if you activate checkbox
@@ -20,12 +36,6 @@ Scripts are downloaded true Bower and included in plugin folder or you can repla
 ## Settings location
 After you install plugin you can find plugin setting under Settings > Swiss Knife
 
-## Roadmap
-
-- Enable SVG Upload
-- Enable TTF Upload
-- Include Anime.js
-- Split Sections into Tabs
 
 **Would like help with and to put them under same roof:**
 - Edit with Oxygen builder under page or post list
