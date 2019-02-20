@@ -26,6 +26,16 @@ function twy_add_swiss_knife_admin_settings(){
 		}
 	</style>';
 	echo '<div class="wrap">';
+
+	?>
+	
+	<h3>If this plugin saves you time and help you earn some money do a decent thing and buy me a coffee :)</h3>
+	<a target="blank" href="https://www.paypal.me/markodesigner"><img src="https://github.com/krstivoja/Oxygens-Swiss-Knife/blob/master/koffee.png?raw=true" alt=""></a>
+	<br><br>
+	<hr>
+	<br>
+
+	<?php 
     if (!empty($_POST['twy_swiss_knife_save_settings']) && check_admin_referer('twy_swiss_knife_save_settings_nonce','twy_swiss_knife_save_settings_value')){
 		
 
