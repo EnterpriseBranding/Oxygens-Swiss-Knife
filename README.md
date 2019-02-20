@@ -22,14 +22,14 @@ I firstly created this plugin based on my personal needs.
 
 3. Enable upload file support for	
 	- SVG 
-	- TTF
 
 ## Roadmap
-- Enable SVG Upload
 - Enable TTF Upload
 - Include Anime.js
 - Split Sections into Tabs
 Scripts are downloaded true Bower and included in plugin folder or you can replace them with CDN.	
+- Provide links to the included Scripts 
+
 
 ### Note: Scripts are enqueued only if you activate checkbox
 
