@@ -35,4 +35,6 @@ After you install plugin you can find plugin setting under Settings > Swiss Knif
 ## Project Screenshoots
 ![alt text](https://github.com/krstivoja/Oxygens-Swiss-Knife/blob/master/preview.png "Plugin Preview")
 
-[![Buy me a beer](https://github.com/krstivoja/Oxygens-Swiss-Knife/blob/master/kofi3.png)](https://www.paypal.me/markodesigner)
+If this plugin saves you time and help you earn some money do a decent thing and buy me a coffee <3
+
+[![Buy me a beer](https://github.com/krstivoja/Oxygens-Swiss-Knife/blob/master/koffee.png)](https://www.paypal.me/markodesigner)
