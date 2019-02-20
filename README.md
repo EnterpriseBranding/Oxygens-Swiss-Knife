@@ -3,7 +3,7 @@
 
 I firstly created this plugin based on my personal needs. 
 
-##What Plugin can do for now
+## What Plugin can do for now
 1. Clean up WordPress header from
 	- WP Emoji
 	- Feed Links
