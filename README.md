@@ -16,13 +16,13 @@ I firstly created this plugin based on my personal needs.
 	- jQuery instead of WP core
 	- Green Sock
 	- Scroll Magic
-	- Parallel Scrolling
+	- Parallax Scrolling
 	- Smooth Scrolling
 	- TreeJS
 
 3. Enable upload file support for	
 	- SVG 
-	- TTF
+	- TTF (Soon)
 
 ## Roadmap
 - Enable SVG Upload
