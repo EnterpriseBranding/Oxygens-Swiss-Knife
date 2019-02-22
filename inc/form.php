@@ -45,7 +45,7 @@ function twy_add_swiss_knife_admin_settings(){
 		$twy_swiss_knife_svg_upload = $twy_swiss_knife_woff_upload = "";
 
 		
-		$twy_swiss_knife_include_jquery = $twy_swiss_knife_include_gsap = $twy_swiss_knife_include_ps = $twy_swiss_knife_include_ss = $twy_swiss_knife_include_tree_js = "";
+		$twy_swiss_knife_include_jquery = $twy_swiss_knife_include_gsap = $twy_swiss_knife_include_scrollmagic = $twy_swiss_knife_include_ps = $twy_swiss_knife_include_ss = $twy_swiss_knife_include_tree_js = "";
 
 		
 
@@ -97,6 +97,10 @@ function twy_add_swiss_knife_admin_settings(){
 		if(isset($_POST['twy_swiss_knife_include_gsap'])){
 			$twy_swiss_knife_include_gsap = sanitize_text_field($_POST['twy_swiss_knife_include_gsap']);
 		}
+
+		if(isset($_POST['twy_swiss_knife_include_scrollmagic'])){
+			$twy_swiss_knife_include_scrollmagic = sanitize_text_field($_POST['twy_swiss_knife_include_scrollmagic']);
+		}
 		if(isset($_POST['twy_swiss_knife_include_ps'])){
 			$twy_swiss_knife_include_ps = sanitize_text_field($_POST['twy_swiss_knife_include_ps']);
 		}
@@ -110,12 +114,14 @@ function twy_add_swiss_knife_admin_settings(){
 		
 		update_option('twy_swiss_knife_include_jquery', $twy_swiss_knife_include_jquery);
 		update_option('twy_swiss_knife_include_gsap', $twy_swiss_knife_include_gsap);
+		update_option('twy_swiss_knife_include_scrollmagic', $twy_swiss_knife_include_scrollmagic);
 		update_option('twy_swiss_knife_include_ps', $twy_swiss_knife_include_ps);
 		update_option('twy_swiss_knife_include_ss', $twy_swiss_knife_include_ss);
 		update_option('twy_swiss_knife_include_tree_js', $twy_swiss_knife_include_tree_js);
 		
         update_option('twy_swiss_knife_include_jquery_cdn',sanitize_text_field($_POST['twy_swiss_knife_include_jquery_cdn']));
         update_option('twy_swiss_knife_include_gsap_cdn',sanitize_text_field($_POST['twy_swiss_knife_include_gsap_cdn']));
+        update_option('twy_swiss_knife_include_scrollmagic_cdn',sanitize_text_field($_POST['twy_swiss_knife_include_scrollmagic_cdn']));
         update_option('twy_swiss_knife_include_ps_cdn',sanitize_text_field($_POST['twy_swiss_knife_include_ps_cdn']));
         update_option('twy_swiss_knife_include_ss_cdn',sanitize_text_field($_POST['twy_swiss_knife_include_ss_cdn']));
         update_option('twy_swiss_knife_include_tree_js_cdn',sanitize_text_field($_POST['twy_swiss_knife_include_tree_js_cdn']));
@@ -218,12 +224,22 @@ function twy_add_swiss_knife_admin_settings(){
 					<input type="text" name="twy_swiss_knife_include_gsap_cdn" class="twy_settings_url_field" id="twy_swiss_knife_include_gsap_cdn" value="<?php echo get_option('twy_swiss_knife_include_gsap_cdn'); ?>">
 				</td>
 			</tr>
+
+			<tr>
+				<td>
+					<input type="checkbox" name="twy_swiss_knife_include_scrollmagic" class="twy_settings_checkbox_field" value="1" id="twy_swiss_knife_include_scrollmagic" <?php if(get_option('twy_swiss_knife_include_scrollmagic')){echo 'checked';} ?>>
+				</td>
+				<td>
+					<label class="twy_settings_label">Enable Scroll Magic or replace with CDN. <a target="blank" href="https://github.com/janpaepke/ScrollMagic">View library ↗</a></label><BR>
+					<input type="text" name="twy_swiss_knife_include_scrollmagic_cdn" class="twy_settings_url_field" id="twy_swiss_knife_include_scrollmagic_cdn" value="<?php echo get_option('twy_swiss_knife_include_scrollmagic_cdn'); ?>">
+				</td>
+			</tr>
 			<tr>
 				<td>
 					<input type="checkbox" name="twy_swiss_knife_include_ps" class="twy_settings_checkbox_field" value="1" id="twy_swiss_knife_include_ps" <?php if(get_option('twy_swiss_knife_include_ps')){echo 'checked';} ?>>
 				</td>
 				<td>
-					<label class="twy_settings_label">Enable Parallel Scrolling or replace with CDN. <a target="blank" href="https://github.com/dixonandmoe/rellax">View library ↗</a></label><BR>
+					<label class="twy_settings_label">Enable Parallax Scrolling or replace with CDN. <a target="blank" href="https://github.com/dixonandmoe/rellax">View library ↗</a></label><BR>
 					<input type="text" name="twy_swiss_knife_include_ps_cdn" class="twy_settings_url_field" id="twy_swiss_knife_include_ps_cdn" value="<?php echo get_option('twy_swiss_knife_include_ps_cdn'); ?>">
 				</td>
 			</tr>

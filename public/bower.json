@@ -38,7 +38,8 @@
     "relax.js": "^0.2.2",
     "jquery-smoothwheel": "*",
     "jquery": "^3.3.1",
-    "three.js": "^0.93.0"
+    "three.js": "^0.93.0",
+    "scrollmagic": "ScrollMagic#^2.0.6"
   },
   "resolutions": {
     "jquery": "^3.3.1"

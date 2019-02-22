@@ -23,6 +23,15 @@ function twy_include_scripts_frontend(){
 			wp_enqueue_script('twy_gsap', plugin_dir_url(__FILE__).'public/bower_components/gsap/src/minified/TweenMax.min.js', array(), null);
 		}
 	}
+	if(get_option('twy_swiss_knife_include_scrollmagic')){
+		if(get_option('twy_swiss_knife_include_scrollmagic_cdn')){
+			$script_url = get_option('twy_swiss_knife_include_scrollmagic_cdn');
+			wp_enqueue_script('twy_scrollmagic', $script_url, array(), null);
+		}
+		else{
+			wp_enqueue_script('twy_scrollmagic', plugin_dir_url(__FILE__).'public/bower_components/scrollmagic/scrollmagic/minified/ScrollMagic.min.js', array(), null);
+		}
+	}
 	if(get_option('twy_swiss_knife_include_ps')){
 		if(get_option('twy_swiss_knife_include_ps_cdn')){
 			$script_url = get_option('twy_swiss_knife_include_ps_cdn');
