@@ -34,7 +34,7 @@
   "private": true,
   "dependencies": {
     "owl.carousel": "^2.3.4",
-    "gsap": "greensock#^2.0.2",
+    "gsap": "^2.1.1",
     "relax.js": "^0.2.2",
     "jquery-smoothwheel": "*",
     "jquery": "^3.3.1",

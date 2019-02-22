@@ -1,6 +1,6 @@
 {
   "name": "gsap",
-  "version": "2.0.2",
+  "version": "2.1.1",
   "description": "The most flexible, high-performance animation library on the planet. Animate any property of any object. Solves browser quirks.",
   "author": {
     "name": "Jack Doyle",
@@ -15,13 +15,13 @@
     "url": "https://github.com/greensock/GreenSock-JS"
   },
   "homepage": "https://github.com/greensock/GreenSock-JS",
-  "_release": "2.0.2",
+  "_release": "2.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "2.0.2",
-    "commit": "53f4a8d186948dc69f315e3a57bc4e41eb764b98"
+    "tag": "2.1.1",
+    "commit": "720ac30e35d2f7019b419c84dc819e73aeea5d4a"
   },
   "_source": "https://github.com/greensock/GreenSock-JS.git",
-  "_target": "^2.0.2",
-  "_originalSource": "greensock"
+  "_target": "^2.1.1",
+  "_originalSource": "gsap"
 }

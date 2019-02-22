@@ -214,7 +214,7 @@ function twy_add_swiss_knife_admin_settings(){
 					<input type="checkbox" name="twy_swiss_knife_include_gsap" class="twy_settings_checkbox_field" value="1" id="twy_swiss_knife_include_gsap" <?php if(get_option('twy_swiss_knife_include_gsap')){echo 'checked';} ?>>
 				</td>
 				<td>
-					<label class="twy_settings_label">Enable Green Sock or replace with CDN</label><BR>
+					<label class="twy_settings_label">Enable Green Sock or replace with CDN <a href="https://greensock.com/docs/TweenMax">View library</a></label><BR>
 					<input type="text" name="twy_swiss_knife_include_gsap_cdn" class="twy_settings_url_field" id="twy_swiss_knife_include_gsap_cdn" value="<?php echo get_option('twy_swiss_knife_include_gsap_cdn'); ?>">
 				</td>
 			</tr>
@@ -223,7 +223,7 @@ function twy_add_swiss_knife_admin_settings(){
 					<input type="checkbox" name="twy_swiss_knife_include_ps" class="twy_settings_checkbox_field" value="1" id="twy_swiss_knife_include_ps" <?php if(get_option('twy_swiss_knife_include_ps')){echo 'checked';} ?>>
 				</td>
 				<td>
-					<label class="twy_settings_label">Enable Parallel Scrolling or replace with CDN</label><BR>
+					<label class="twy_settings_label">Enable Parallel Scrolling or replace with CDN <a href="https://github.com/dixonandmoe/rellax">View library</a></label><BR>
 					<input type="text" name="twy_swiss_knife_include_ps_cdn" class="twy_settings_url_field" id="twy_swiss_knife_include_ps_cdn" value="<?php echo get_option('twy_swiss_knife_include_ps_cdn'); ?>">
 				</td>
 			</tr>
@@ -232,7 +232,7 @@ function twy_add_swiss_knife_admin_settings(){
 					<input type="checkbox" name="twy_swiss_knife_include_ss" class="twy_settings_checkbox_field" value="1" id="twy_swiss_knife_include_ss" <?php if(get_option('twy_swiss_knife_include_ss')){echo 'checked';} ?>>
 				</td>
 				<td>
-					<label class="twy_settings_label">Enable Smooth Scrolling or replace with CDN</label><BR>
+					<label class="twy_settings_label">Enable Smooth Scrolling or replace with CDN <a href="https://github.com/htmldiz/smoothwheel">View library</a></label><BR>
 					<input type="text" name="twy_swiss_knife_include_ss_cdn" class="twy_settings_url_field" id="twy_swiss_knife_include_ss_cdn" value="<?php echo get_option('twy_swiss_knife_include_ss_cdn'); ?>">
 				</td>
 			</tr>
@@ -241,7 +241,7 @@ function twy_add_swiss_knife_admin_settings(){
 					<input type="checkbox" name="twy_swiss_knife_include_tree_js" class="twy_settings_checkbox_field" value="1" id="twy_swiss_knife_include_tree_js" <?php if(get_option('twy_swiss_knife_include_tree_js')){echo 'checked';} ?>>
 				</td>
 				<td>
-					<label class="twy_settings_label">Enable TreeJS or replace with CDN</label><BR>
+					<label class="twy_settings_label">Enable TreeJS or replace with CDN <a href="https://github.com/jiyinyiyong/three.js">View library</a></label><BR>
 					<input type="text" name="twy_swiss_knife_include_tree_js_cdn" class="twy_settings_url_field" id="twy_swiss_knife_include_tree_js_cdn" value="<?php echo get_option('twy_swiss_knife_include_tree_js_cdn'); ?>">
 				</td>
 			</tr>
